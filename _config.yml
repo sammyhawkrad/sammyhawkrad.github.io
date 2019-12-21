@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: "https://sammyhawkrad.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +12,7 @@ url: "https://le4ker.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+# baseurl: /personal-jekyll-theme
 
 # Google tracking id
 
@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Samuel Darkwah Manu"
+title: "{ Samuel Darkwah Manu }"
+description: "Blog and website of Samuel Darkwah Manu, blogging mainly for personal experience. Opinions expressed are mine."
+keywords: "sammyhawkrad"
 favicon: "/img/favicon.ico"
 
 ################
@@ -55,8 +55,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "NOTE: This is a jekyll template forked from le4ker/personal-jekyll-theme. Samuel's site is still under construction"
+  - text: "Life is for the living so live it, or you're better of dead."
 
 me-img: "/img/jetpacktocat.png"
 
