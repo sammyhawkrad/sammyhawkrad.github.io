@@ -196,7 +196,7 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  About Me: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
