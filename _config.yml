@@ -132,19 +132,19 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/getinnotized.png"
     date: "April 2020 - Today"
-    description: "getINNOtized GmbH"
+    description: "Junior GIS & Data Analyst"
   - image: "/img/timeline/azubi.jpg"
     date: "November 2019 - March 2020"
-    description: "Azubi Africa"
+    description: "Data Science Apprentice"
   - image: "/img/timeline/wgma.png"
     date: "September 2018 - August 2019"
-    description: "Weija-Gbawe Municipal Assembly"
+    description: "Development Planning Assistant"
   - image: "/img/timeline/knust.jpg"
     date: "September 2014 - June 2018"
-    description: "Kwame Nkrumah University of Science & Technology"
+    description: "BSc. Development Planning"
   - image: "/img/timeline/prempeh.jpg"
     date: "September 2010 - May 2013"
-    description: "Prempeh College"
+    description: "Business Studies"
     
 
 # First image of the Timeline
