@@ -6,12 +6,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-        
+
+        <!-- Primary Meta Tags -->
         <title>Samuel Darkwah Manu</title>
-        <meta name="description" content="Homepage of Samuel Darkwah Manu, a web developer and cartographer">
+        <meta name="title" content="Samuel Darkwah Manu" />
+        <meta name="description" content="Personal website of Samuel Darkwah Manu &mdash; Web Developer | Cartographer | GIS & Data Specialist">
         <meta name="keywords" content="web developer, cartographer, samuel darkwah manu, sammyhawkrad">
         <meta name="author" content="Samuel Darkwah Manu">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sammyhawkrad.github.io/" />
+        <meta property="og:title" content="Samuel Darkwah Manu" />
+        <meta property="og:description" content="Personal website of Samuel Darkwah Manu, a web developer and cartographer" />
+        <meta property="og:image" content="/assets/preview.png" />
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://sammyhawkrad.github.io/" />
+        <meta property="twitter:title" content="Samuel Darkwah Manu" />
+        <meta property="twitter:description"
+            content="Personal website of Samuel Darkwah Manu, a web developer and cartographer" />
+        <meta property="twitter:image" content="/assets/preview.png" />
     </head>
     <body>
         <main>
@@ -21,6 +37,7 @@
                 <p>Web Developer | Cartographer | OpenStreetMapper</p>
                 <p>🌍 Dresden, Germany | 🕖 <span id="time"></span></p>
             </div>
+            <!-- Social Media Accounts -->
             <div class="social">
                 <a href="https://github.com/sammyhawkrad" target="_blank">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -73,11 +90,12 @@
                     </svg>
                 </a>
             </div>
+            <!-- Links to about, projects, blog, resume -->
             <div class="links">
                 <a href="/portfolio/#/about" class="link">About</a>
                 <a href="/portfolio/#/projects" class="link">Projects</a>
-                <a href="" class="link">Blog</a>
-                <a href="" class="link">Resume</a>
+                <a href="" class="link coming">Blog</a>
+                <a href="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/samuel+darkwah-manu/6843b2af-38bb-4342-be44-4770bda2b088?view=html" target="_blank" class="link">Resume</a>
             </div>
         </main>
 
@@ -207,6 +225,9 @@
         <script>
             const time = new Date().toLocaleString('de', { timeZone: 'Europe/Berlin' });
             document.getElementById('time').textContent = time;
+
+            const notify = () => alert('Coming soon!');
+            document.querySelectorAll('.coming').forEach(link => link.addEventListener('click', notify));
         </script>
     </body>
 </html>
