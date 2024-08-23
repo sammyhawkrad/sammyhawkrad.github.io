@@ -133,7 +133,7 @@
             p {
                 font-size: 1rem;
                 margin-bottom: 0.5rem;
-                color: gray;
+                color: rgb(209, 209, 209);
             }
 
             .links {
@@ -223,8 +223,10 @@
             }
         </style>
         <script>
-            const time = new Date().toLocaleString('de', { timeZone: 'Europe/Berlin' });
-            document.getElementById('time').textContent = time;
+            setInterval(function () {
+                    const time = new Date().toLocaleString('de', { timeZone: 'Europe/Berlin' });
+                    document.getElementById('time').textContent = time;
+                }, 1000)
 
             const notify = () => alert('Coming soon!');
             document.querySelectorAll('.coming').forEach(link => link.addEventListener('click', notify));
